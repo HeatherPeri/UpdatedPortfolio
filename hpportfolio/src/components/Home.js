@@ -14,17 +14,17 @@ function Home() {
         <h1>HEATHER PERI</h1>
         <h2><b>personal portfolio</b></h2>
         <br></br>
-       <Container>
+       {/* <Container>
          <Row>
            <Col size="md-6">
            <Button outline color="info" size="lg">The Latest</Button>{' '}
            
            </Col>
            <Col size="md-6">
-           <Button outline color="info" size="lg"><i class="fa fa-star-o"></i>Contact Me</Button>{' '}
+           <Button outline color="info" size="lg">Contact Me</Button>{' '}
            </Col>
          </Row>
-       </Container>
+       </Container> */}
 
       </Homestyle>
       </div>
