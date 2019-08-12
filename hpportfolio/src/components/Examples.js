@@ -1,6 +1,12 @@
 import React from 'react';
 import { Row, Col, Container, Button, Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle } from 'reactstrap';
+    import salon from './images/salon.jpeg';
+    import samaritan from './images/samaritan.jpeg';
+    import bamazon from './images/bamazon.jpeg';
+    import updatedast from './images/updatedast.jpeg';
+    import animate from './images/animate.jpeg';
+    import ln from './images/ln.jpeg';
 
 function Examples() {
   return (
@@ -15,7 +21,7 @@ function Examples() {
     <Row>
         <Col size="md-6">
         <Card>
-        <CardImg top width="50%" src="https://images.unsplash.com/photo-1564326680392-26c9e5220866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" Style="height:500px" alt="Card image cap" />
+        <img src={updatedast} alt="Logo" Style="height:230px"/>
         <CardBody className="text-center">
           <CardTitle>Astrono(ME)</CardTitle>
           <CardSubtitle>Bootstrap, MySQL </CardSubtitle>
@@ -28,15 +34,14 @@ function Examples() {
         </CardBody>
         </Card>
         </Col>
-
         <Col size="md-6">
             <Card>
-        <CardImg top width="50%" src="https://images.unsplash.com/photo-1564326680392-26c9e5220866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" Style="height:500px" alt="Card image cap" />
+            <img src={samaritan} alt="Logo" Style="height: 230px"/>
         <CardBody className="text-center">
-          <CardTitle>Animation</CardTitle>
-          <CardSubtitle>Javascript, Front end responsiveness</CardSubtitle>
-          <CardText>10 buttons all linked to a different giphy API. Once the buttons are clicked gifs are loaded to page. The gifs respond to click functions to start and stop the animations</CardText>
-          <Button href="https://github.com/HeatherPeri/Animate">Github <i class="fa fa-github"></i></Button>
+          <CardTitle>Samaritan</CardTitle>
+          <CardSubtitle>React, reactstrap, MySQL</CardSubtitle>
+          <CardText>Working progress application</CardText>
+          <Button href="https://github.com/HeatherPeri/Samaritan">Github <i class="fa fa-github"></i></Button>
         </CardBody>
         </Card>
         </Col>
@@ -45,7 +50,7 @@ function Examples() {
     <Row>
         <Col size="md-6">
         <Card>
-        <CardImg top width="50%" src="https://images.unsplash.com/photo-1564326680392-26c9e5220866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" Style="height:500px" alt="Card image cap" />
+        <img src={bamazon} alt="Logo" Style="height:250px"/>
         <CardBody className="text-center">
           <CardTitle>Bamazon</CardTitle>
           <CardSubtitle>MySQL database </CardSubtitle>
@@ -60,15 +65,16 @@ function Examples() {
 
         <Col size="md-6">
             <Card>
-        <CardImg top width="50%" src="https://images.unsplash.com/photo-1564326680392-26c9e5220866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" Style="height:500px" alt="Card image cap" />
+            <img src={animate} alt="Logo" Style="height:250px"/>
         <CardBody className="text-center">
-          <CardTitle>Samaritan</CardTitle>
-          <CardSubtitle>React, reactstrap, MySQL</CardSubtitle>
-          <CardText>Working progress application</CardText>
-          <Button href="https://github.com/HeatherPeri/Samaritan">Github <i class="fa fa-github"></i></Button>
+          <CardTitle>Animation</CardTitle>
+          <CardSubtitle>Javascript, Front end responsiveness</CardSubtitle>
+          <CardText>10 buttons all linked to a different giphy API. Once the buttons are clicked gifs are loaded to page. The gifs respond to click functions to start and stop the animations</CardText>
+          <Button href="https://github.com/HeatherPeri/Animate">Github <i class="fa fa-github"></i></Button>
         </CardBody>
         </Card>
         </Col>
+
 
     </Row>
     </Container>
@@ -78,7 +84,7 @@ function Examples() {
       <Row>
         <Col size="md-6">
         <Card>
-        <CardImg top width="50%" src="https://images.unsplash.com/photo-1564326680392-26c9e5220866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" Style="height:500px" alt="Card image cap" />
+        <img src={salon} alt="Logo" Style="height:250px"/>
         <CardBody className="text-center">
           <CardTitle>Salon Synchronicity</CardTitle>
           <CardSubtitle>Created full website </CardSubtitle>
@@ -90,7 +96,7 @@ function Examples() {
 
         <Col size="md-6">
             <Card>
-        <CardImg top width="50%" src="https://images.unsplash.com/photo-1564326680392-26c9e5220866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" Style="height:500px" alt="Card image cap" />
+            <img src={ln} alt="Logo" Style="height:250px"/>
         <CardBody className="text-center">
           <CardTitle>LN Organix</CardTitle>
           <CardSubtitle>Plug-In + Inventory</CardSubtitle>
