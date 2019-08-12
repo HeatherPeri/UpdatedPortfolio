@@ -4,6 +4,7 @@ import Homestyle from './Homestyle/Homestyle';
 // import Col from 'react-bootstrap/Col';
 // import Container from 'react-bootstrap/Container';
 import { Row, Col, Container, Button } from 'reactstrap';
+import { CSS } from '../'
 
 
 
@@ -14,17 +15,6 @@ function Home() {
         <h1>HEATHER PERI</h1>
         <h2><b>personal portfolio</b></h2>
         <br></br>
-       {/* <Container>
-         <Row>
-           <Col size="md-6">
-           <Button outline color="info" size="lg">The Latest</Button>{' '}
-           
-           </Col>
-           <Col size="md-6">
-           <Button outline color="info" size="lg">Contact Me</Button>{' '}
-           </Col>
-         </Row>
-       </Container> */}
 
       </Homestyle>
       </div>
