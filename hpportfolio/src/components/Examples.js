@@ -1,4 +1,6 @@
 import React from 'react';
+import Homestyle from './Homestyle/Homestyle';
+
 import { Row, Col, Container, Button, Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle } from 'reactstrap';
     import salon from './images/salon.jpeg';
@@ -11,8 +13,8 @@ import { Row, Col, Container, Button, Card, CardImg, CardText, CardBody,
 function Examples() {
   return (
 <div>
-
-    <h1 className="text-center">The Latest</h1>
+<Homestyle>
+    <h3 className="text-center">The Latest</h3>
     <br></br>
     <h3 className="text-center"> Full Stack </h3>
     <Container>
@@ -24,9 +26,8 @@ function Examples() {
         <img src={updatedast} alt="Logo" Style="height:230px"/>
         <CardBody className="text-center">
           <CardTitle>Astrono(ME)</CardTitle>
-          <CardSubtitle>Bootstrap, MySQL </CardSubtitle>
-          <CardText>In this group based project my controbutions include but are not limited to:
-                    Creating the events page, UI responsiveness</CardText>
+          <CardSubtitle>Javascript, JQuery, Bootstrap, MySQL </CardSubtitle>
+          <CardText>Fun and educational way for a user to view everything related to space exploration without leaving Earth. Search for current stars, asteroids, and astronauts that are currently in space. On the events page, the user can create a specific upcoming event, or view the list of upcoming asteroids. This site showcases the previously unknown and unseen parts of space.</CardText>
 
           <Button href="https://github.com/HeatherPeri/Project2.git">Github</Button> 
           <Button href="https://see-the-stars.herokuapp.com/index.html">Deployed Site</Button>
@@ -40,7 +41,11 @@ function Examples() {
         <CardBody className="text-center">
           <CardTitle>Samaritan</CardTitle>
           <CardSubtitle>React, reactstrap, MySQL</CardSubtitle>
-          <CardText>Working progress application</CardText>
+          <CardText>Currently working on this application.  There are two log-ins for 
+            two different audiences, volunteers and non-profits.  The volunteers can sign-up
+            for events and look up non-profits.  The non-profits can post events and text the 
+            volunteers of upcoming events. 
+          </CardText>
           <Button href="https://github.com/HeatherPeri/Samaritan">Github <i class="fa fa-github"></i></Button>
         </CardBody>
         </Card>
@@ -87,8 +92,12 @@ function Examples() {
         <img src={salon} alt="Logo" Style="height:250px"/>
         <CardBody className="text-center">
           <CardTitle>Salon Synchronicity</CardTitle>
-          <CardSubtitle>Created full website </CardSubtitle>
-          <CardText>more info on the project</CardText>
+          <CardSubtitle>Designed and created full website </CardSubtitle>
+          <CardText>Met with salon owner to go over ideal look of the website. Gave advise what 
+            she would need and what look we could achieve.  Taught the owner how she can create
+            and update blog posts and upcoming events.  WordPress is a great tool for website owners
+            who want to have control of day to day content.
+          </CardText>
           <Button href="https://salonsynchronicity.com/">Browse Site</Button>
         </CardBody>
         </Card>
@@ -100,7 +109,8 @@ function Examples() {
         <CardBody className="text-center">
           <CardTitle>LN Organix</CardTitle>
           <CardSubtitle>Plug-In + Inventory</CardSubtitle>
-          <CardText>helped with plug-ins and keeping up with inventory</CardText>
+          <CardText>Gave advice on what plug-ins to use and updated inventory items and quantities.<br></br>
+          </CardText>
           <Button href="https://www.lnorganix.com/">Browse Site</Button>
         </CardBody>
         </Card>
@@ -108,6 +118,7 @@ function Examples() {
 
     </Row>
     </Container>
+    </Homestyle>
 </div>
   );
 }
